@@ -1,55 +1,51 @@
-# Mintlify Starter Kit
+<h1 align="center">Zeal Docs (Mintlify)</h1>
 
-Use the starter kit to get your docs deployed and ready to customize.
+<p align="center"><i>Zeal's Mintlify documentation project: MDX guides, API reference and AI-tool docs rendered by Mintlify, configured through `docs.json`.</i></p>
 
-Click the green **Use this template** button at the top of this repo to copy the Mintlify starter kit. The starter kit contains examples with
+<p align="center">![Language](https://img.shields.io/badge/lang-MDX-F97316) ![Stack](https://img.shields.io/badge/stack-Mintlify-339933) ![Status](https://img.shields.io/badge/status-active-2EA44F) ![Visibility](https://img.shields.io/badge/repo-public-24292F) ![License](https://img.shields.io/badge/license-MIT-blue)</p>
 
-- Guide pages
-- Navigation
-- Customizations
-- API reference pages
-- Use of popular components
+---
+## Contents
 
-**[Follow the full quickstart guide](https://starter.mintlify.com/quickstart)**
+- [Structure](#structure)
+- [Workflow](#workflow)
+- [To-dos visible from the config](#to-dos-visible-from-the-config)
 
-## AI-assisted writing
+Currently based on the Mintlify starter kit (theme "mint", `name` still "Mint Starter Kit" - branding not yet customized).
 
-Set up your AI coding tool to work with Mintlify:
+<p align="right"><a href="#contents">Back to contents</a></p>
 
-```bash
-npx skills add https://mintlify.com/docs
+## Structure
+
+```text
+docs.json        Mintlify site config (theme, colors, navigation tabs/groups)
+index.mdx        landing page
+quickstart.mdx   getting started
+development.mdx  development guide
+essentials/      core guide pages
+api-reference/   API reference pages
+ai-tools/        AI tooling docs
+images/, logo/   assets
+CONTRIBUTING.md  how to contribute
+AGENTS.md        notes for AI assistants working on this repo
+.mintignore      build exclusions
 ```
 
-This command installs Mintlify's documentation skill for your configured AI tools like Claude Code, Cursor, Windsurf, and others. The skill includes component reference, writing standards, and workflow guidance.
+<p align="right"><a href="#contents">Back to contents</a></p>
 
-See the [AI tools guides](/ai-tools) for tool-specific setup.
+## Workflow
 
-## Development
+Edit or add `.mdx` pages, register them in `docs.json` navigation, preview locally with the Mintlify CLI (`mint dev`), and open a PR. Mintlify deploys on merge (git-connected).
 
-Install the [Mintlify CLI](https://www.npmjs.com/package/mint) to preview your documentation changes locally. To install, use the following command:
+<p align="right"><a href="#contents">Back to contents</a></p>
 
-```
-npm i -g mint
-```
+## To-dos visible from the config
 
-Run the following command at the root of your documentation, where your `docs.json` is located:
+- Customize `name`/branding away from the starter kit
+- Fill `api-reference/` with the real Zeal API pages
 
-```
-mint dev
-```
+## License and contribution
 
-View your local preview at `http://localhost:3000`.
+Internal Zeal repository. License: MIT (see the LICENSE file).
 
-## Publishing changes
-
-Install our GitHub app from your [dashboard](https://dashboard.mintlify.com/settings/organization/github-app) to propagate changes from your repo to your deployment. Changes are deployed to production automatically after pushing to the default branch.
-
-## Need help?
-
-### Troubleshooting
-
-- If your dev environment isn't running: Run `mint update` to ensure you have the most recent version of the CLI.
-- If a page loads as a 404: Make sure you are running in a folder with a valid `docs.json`.
-
-### Resources
-- [Mintlify documentation](https://mintlify.com/docs)
+Contribution: open a pull request against the default branch; keep changes minimal and described. For releases/deployments follow the platform CD process - never force-push shared branches.
