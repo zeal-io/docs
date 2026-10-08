@@ -1,6 +1,6 @@
 <h1 align="center">Zeal Docs (Mintlify)</h1>
 
-<p align="center"><i>Zeal's Mintlify documentation project: MDX guides, API reference and AI-tool docs rendered by Mintlify, configured through `docs.json`.</i></p>
+<p align="center"><i>Zeal's Mintlify documentation project: MDX guides, API reference and AI-tool docs rendered by Mintlify, configured through <code>docs.json</code>.</i></p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/lang-MDX-F97316" alt="Language">
