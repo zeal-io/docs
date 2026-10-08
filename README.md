@@ -2,7 +2,13 @@
 
 <p align="center"><i>Zeal's Mintlify documentation project: MDX guides, API reference and AI-tool docs rendered by Mintlify, configured through `docs.json`.</i></p>
 
-<p align="center">![Language](https://img.shields.io/badge/lang-MDX-F97316) ![Stack](https://img.shields.io/badge/stack-Mintlify-339933) ![Status](https://img.shields.io/badge/status-active-2EA44F) ![Visibility](https://img.shields.io/badge/repo-public-24292F) ![License](https://img.shields.io/badge/license-MIT-blue)</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/lang-MDX-F97316" alt="Language">
+  <img src="https://img.shields.io/badge/stack-Mintlify-339933" alt="Stack">
+  <img src="https://img.shields.io/badge/status-active-2EA44F" alt="Status">
+  <img src="https://img.shields.io/badge/repo-public-24292F" alt="Visibility">
+  <img src="https://img.shields.io/badge/license-MIT-blue" alt="License">
+</p>
 
 ---
 ## Contents
